@@ -30,12 +30,14 @@ window.addEventListener('scroll', () => {
 // Check for saved theme preference or default to dark mode
 const currentTheme = localStorage.getItem('theme') || 'dark';
 const profileImage = document.getElementById('profileImage');
+const navLogo = document.getElementById('navLogo');
 
 if (currentTheme === 'light') {
     document.documentElement.classList.add('light-mode');
     themeIcon.classList.remove('fa-moon');
     themeIcon.classList.add('fa-sun');
     profileImage.src = 'assets/profile-light.jpg';
+    navLogo.src = 'assets/profile-light.jpg';
 }
 
 themeToggle.addEventListener('click', () => {
@@ -45,11 +47,13 @@ themeToggle.addEventListener('click', () => {
         themeIcon.classList.remove('fa-moon');
         themeIcon.classList.add('fa-sun');
         profileImage.src = 'assets/profile-light.jpg';
+        navLogo.src = 'assets/profile-light.jpg';
         localStorage.setItem('theme', 'light');
     } else {
         themeIcon.classList.remove('fa-sun');
         themeIcon.classList.add('fa-moon');
         profileImage.src = 'assets/profile-dark.jpg';
+        navLogo.src = 'assets/profile-dark.jpg';
         localStorage.setItem('theme', 'dark');
     }
 });

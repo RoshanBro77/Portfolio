@@ -154,9 +154,36 @@ img {
     color: var(--text-primary);
 }
 
-/* Darker logo in light mode */
-:root.light-mode .logo {
-    color: var(--text-primary);
+/* Nav profile image logo */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.nav-logo:hover img {
+    border-color: var(--primary-color);
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(91, 191, 177, 0.3);
+}
+
+/* Light mode nav logo */
+:root.light-mode .nav-logo img {
+    border-color: var(--border-color);
+}
+
+/* Dark mode: use grayscale profile */
+:root:not(.light-mode) #navLogo {
+    filter: grayscale(100%) contrast(1.1);
 }
 
 .nav-menu {

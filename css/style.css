@@ -136,6 +136,20 @@ img {
     position: relative;
 }
 
+.nav-menu {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1.5rem;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
 /* Teal accent line for light mode navbar */
 :root.light-mode .nav-content::after {
     content: '';
@@ -184,12 +198,6 @@ img {
 /* Dark mode: use grayscale profile */
 :root:not(.light-mode) #navLogo {
     filter: grayscale(100%) contrast(1.1);
-}
-
-.nav-menu {
-    display: flex;
-    gap: 2.5rem;
-    align-items: center;
 }
 
 .nav-menu a {
@@ -1365,20 +1373,19 @@ section {
         background: var(--bg-primary);
     }
 
-    .theme-toggle {
-        background: transparent;
-        border: none;
-        width: auto;
-        height: auto;
-    }
-
-    .theme-toggle:hover {
-        background: transparent;
-        transform: rotate(0);
+    .nav-actions {
+        position: fixed;
+        top: 15px;
+        right: 70px;
+        z-index: 1001;
     }
 
     .menu-toggle {
         display: flex;
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        z-index: 1001;
     }
 
     .menu-toggle.active span:nth-child(1) {

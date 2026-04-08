@@ -1,0 +1,27 @@
+# Vercel
+.vercel
+
+# Qwen AI config
+.qwen/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshan Sadha Sanker | Data Analyst & System Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">Roshan.</a>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name"><span class="name-first">Roshan</span> <span class="name-last">Sadha Sanker</span></h1>
+                    <p class="hero-role">Data Analyst & System Engineer</p>
+                    <p class="hero-description">Transforming raw data into actionable insights through Python, SQL, and data visualisation. Bridging the gap between system infrastructure and data-driven decision making.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="assets/Roshan_Data_Analyst_Resume.pdf" download class="btn btn-secondary"><i class="fas fa-download" style="margin-right: 8px;"></i>Download Resume</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/roshan-sadha-sanker-98ab2819a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/RoshanBro77" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:crroshan7@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-placeholder">
+                            <img src="assets/profile-dark.jpg" alt="Roshan Sadha Sanker" id="profileImage">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="title-light">About</span> <span class="title-accent">Me</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">I'm a <strong>Master of Data Science</strong> student at Charles Darwin University with a strong foundation in system engineering, data analysis, and database querying.</p>
+                    <p>My experience spans from managing Windows Server and Linux systems to transforming complex datasets into clear, actionable insights using Python, SQL, and data visualisation tools like Tableau.</p>
+                    <p>I bring a unique combination of <strong>system infrastructure expertise</strong> and <strong>data analytics skills</strong>, enabling me to support reliable data handling and drive data-driven decision making in any environment.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Degrees</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="title-light">Technical</span> <span class="title-accent">Skills</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming & Data</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data & Analytics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Cleaning</span>
+                        <span class="skill-tag">EDA</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Machine Learning</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>System Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Windows Server</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Active Directory</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">VMware</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">PowerShell</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="title-light">Work</span> <span class="title-accent">Experience</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>System Engineer</h3>
+                            <span class="timeline-company">Nowcloud</span>
+                        </div>
+                        <span class="timeline-date">Mar 2026 – Present · Sydney, NSW</span>
+                        <ul class="timeline-details">
+                            <li>Configured and managed Windows Server and Linux systems, including Active Directory and Group Policy</li>
+                            <li>Administered networking components (TCP/IP, DNS, DHCP), ensuring stable system connectivity</li>
+                            <li>Deployed and managed virtual machines in Microsoft Azure and virtualization platforms</li>
+                            <li>Automated administrative tasks using Bash and PowerShell scripts</li>
+                            <li>Monitored system performance, logs, and server health to proactively resolve issues</li>
+                            <li>Implemented backup and recovery processes to ensure data integrity and availability</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Field Technician / IT Support</h3>
+                            <span class="timeline-company">Enbridge IT Services NSW</span>
+                        </div>
+                        <span class="timeline-date">Nov 2023 – 2025</span>
+                        <ul class="timeline-details">
+                            <li>Provided onsite IT support for Windows systems and enterprise applications</li>
+                            <li>Assisted users with Microsoft Office 365 including Excel and Outlook</li>
+                            <li>Supported SQL scripting for database queries and troubleshooting</li>
+                            <li>Maintained SharePoint environments and resolved user issues</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Data Analyst</h3>
+                            <span class="timeline-company">Aarambha IT Research Center</span>
+                        </div>
+                        <span class="timeline-date">Feb 2022 – Apr 2022</span>
+                        <ul class="timeline-details">
+                            <li>Cleaned and transformed datasets using Python and Excel</li>
+                            <li>Performed SQL queries for data extraction, filtering, and aggregation</li>
+                            <li>Assisted in building analytical reports and dashboards</li>
+                            <li>Identified trends and patterns to support research insights</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="title-light">Featured</span> <span class="title-accent">Projects</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-bicycle"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>London Bike Sharing Data Analysis</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Pandas</span>
+                            <span class="project-tag">Data Analysis</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Cleaned and processed datasets using Python (Pandas)</li>
+                            <li>Performed exploratory data analysis and identified trends</li>
+                            <li>Created visualisations to analyse seasonal demand patterns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Spinach Defect Detection – Computer Vision</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">YOLO</span>
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">Machine Learning</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Developed object detection model using YOLO architecture</li>
+                            <li>Prepared datasets and evaluated model performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="title-light">My</span> <span class="title-accent">Education</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Master of Data Science</h3>
+                    <p class="education-school">Charles Darwin University</p>
+                    <p class="education-date">2023 – 2026</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>BSc (Hons) Computing</h3>
+                    <p class="education-school">London Metropolitan University</p>
+                    <p class="education-date">2019 – 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="title-light">Get In</span> <span class="title-accent">Touch</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">I'm always open to discussing new opportunities, data analysis projects, or system engineering roles. Let's connect!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Sydney, NSW, Australia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:0451817246">0451 817 246</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:crroshan7@gmail.com">crroshan7@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <a href="https://www.linkedin.com/in/roshan-sadha-sanker-98ab2819a/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/RoshanBro77" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="mailto:crroshan7@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Roshan Sadha Sanker. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
